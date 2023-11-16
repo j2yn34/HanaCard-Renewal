@@ -355,15 +355,15 @@ header .under .inner ul li {
   height: 100%;
 }
 .main_container .main_inner .banner1_icon {
-  background: url(../images/banner1_icon.png) no-repeat center;
+  background: url(../images/main/banner1_icon.png) no-repeat center;
   background-size: contain;
 }
 .main_container .main_inner .banner2_icon {
-  background: url(../images/banner2_icon.png) no-repeat center;
+  background: url(../images/main/banner2_icon.png) no-repeat center;
   background-size: contain;
 }
 .main_container .main_inner .banner3_icon {
-  background: url(../images/banner3_icon.png) no-repeat center;
+  background: url(../images/main/banner3_icon.png) no-repeat center;
   background-size: contain;
 }
 .main_inner .txt {
@@ -425,12 +425,12 @@ header .under .inner ul li {
   top: 11px;
 }
 .main_slide_page .btns .start {
-  background: url(../images/btn_mc_banner_play.png) center no-repeat;
+  background: url(../images/main/btn_mc_banner_play.png) center no-repeat;
   width: 14px;
   height: 14px;
 }
 .main_slide_page .btns .stop {
-  background: url(../images/btn_mc_banner_stop.png) center no-repeat;
+  background: url(../images/main/btn_mc_banner_stop.png) center no-repeat;
   width: 14px;
   height: 14px;
 }
@@ -560,42 +560,42 @@ header .under .inner ul li {
   height: 100%;
 }
 .border_ul li .icon1 {
-  background: url(../images/icon1.png) no-repeat;
+  background: url(../images/main/icon1.png) no-repeat;
   background-position: center 0;
   background-size: 45px auto;
 }
 .border_ul li .icon2 {
-  background: url(../images/icon2.png) no-repeat;
+  background: url(../images/main/icon2.png) no-repeat;
   background-position: center 0;
   background-size: 45px auto;
 }
 .border_ul li .icon3 {
-  background: url(../images/icon3.png) no-repeat;
+  background: url(../images/main/icon3.png) no-repeat;
   background-position: center 0;
   background-size: 45px auto;
 }
 .border_ul li .icon4 {
-  background: url(../images/icon4.png) no-repeat;
+  background: url(../images/main/icon4.png) no-repeat;
   background-position: center 0;
   background-size: 50px auto;
 }
 .border_ul li .icon5 {
-  background: url(../images/icon5.png) no-repeat;
+  background: url(../images/main/icon5.png) no-repeat;
   background-position: center 0;
   background-size: 50px auto;
 }
 .border_ul li .icon6 {
-  background: url(../images/icon6.png) no-repeat;
+  background: url(../images/main/icon6.png) no-repeat;
   background-position: center 0;
   background-size: 50px auto;
 }
 .border_ul li .icon7 {
-  background: url(../images/icon7.png) no-repeat;
+  background: url(../images/main/icon7.png) no-repeat;
   background-position: center 0;
   background-size: 50px auto;
 }
 .border_ul li .icon8 {
-  background: url(../images/icon8.png) no-repeat;
+  background: url(../images/main/icon8.png) no-repeat;
   background-position: center 0;
   background-size: 45px auto;
 }
@@ -664,23 +664,23 @@ header .under .inner ul li {
   transform: translateY(-5px);
 }
 .cards li a .cardimgs .card1 {
-  background: url(../images/card1.png) no-repeat center;
+  background: url(../images/main/card1.png) no-repeat center;
   background-size: cover;
 }
 .cards li a .cardimgs .card2 {
-  background: url(../images/card2.png) no-repeat center;
+  background: url(../images/main/card2.png) no-repeat center;
   background-size: cover;
 }
 .cards li a .cardimgs .card3 {
-  background: url(../images/card3.png) no-repeat center;
+  background: url(../images/main/card3.png) no-repeat center;
   background-size: cover;
 }
 .cards li a .cardimgs .card4 {
-  background: url(../images/card4.png) no-repeat center;
+  background: url(../images/main/card4.png) no-repeat center;
   background-size: cover;
 }
 .cards li a .cardimgs .card5 {
-  background: url(../images/card5.png) no-repeat center;
+  background: url(../images/main/card5.png) no-repeat center;
   background-size: cover;
 }
 .cards li a {
@@ -814,11 +814,11 @@ header .under .inner ul li {
   height: 150px;
 }
 .event a .ev_icon1 {
-  background: url(../images/event1.png) no-repeat center;
+  background: url(../images/main/event1.png) no-repeat center;
   background-size: contain;
 }
 .event a .ev_icon2 {
-  background: url(../images/event2.png) no-repeat center;
+  background: url(../images/main/event2.png) no-repeat center;
   background-size: contain;
 }
 .event a .text {
@@ -910,13 +910,13 @@ header .under .inner ul li {
   display: block;
 }
 .ev_slide_page .btns .start {
-  background: url(../images/btn_mc_banner_play.png) center no-repeat;
+  background: url(../images/main/btn_mc_banner_play.png) center no-repeat;
   width: 14px;
   height: 14px;
   overflow: hidden;
 }
 .ev_slide_page .btns .stop {
-  background: url(../images/btn_mc_banner_stop.png) center no-repeat;
+  background: url(../images/main/btn_mc_banner_stop.png) center no-repeat;
   width: 14px;
   height: 14px;
   overflow: hidden;
@@ -943,7 +943,7 @@ header .under .inner ul li {
 .hanamoney .money_icon {
   width: 90px;
   height: 90px;
-  background: url(../images/hanamoney.png) no-repeat center;
+  background: url(../images/main/hanamoney.png) no-repeat center;
   background-size: contain;
 }
 .money_btn {
@@ -1028,11 +1028,11 @@ header .under .inner ul li {
   height: 80px;
 }
 .global_icon {
-  background: url(../images/glab_icon.png) no-repeat center;
+  background: url(../images/main/glab_icon.png) no-repeat center;
   background-size: contain;
 }
 .vip_icon {
-  background: url(../images/vip_icon.png) no-repeat center;
+  background: url(../images/main/vip_icon.png) no-repeat center;
   background-size: contain;
 }
 
@@ -1099,19 +1099,19 @@ header .under .inner ul li {
   align-items: center;
 }
 .life_btn li a .center .life_icon1 {
-  background: url(../images/life_icon1.png) no-repeat center;
+  background: url(../images/main/life_icon1.png) no-repeat center;
   background-size: contain;
 }
 .life_btn li a .life_icon2 {
-  background: url(../images/life_icon2.png) no-repeat center;
+  background: url(../images/main/life_icon2.png) no-repeat center;
   background-size: contain;
 }
 .life_btn li a .life_icon3 {
-  background: url(../images/life_icon3.png) no-repeat center;
+  background: url(../images/main/life_icon3.png) no-repeat center;
   background-size: contain;
 }
 .life_btn li a .life_icon4 {
-  background: url(../images/life_icon4.png) no-repeat center;
+  background: url(../images/main/life_icon4.png) no-repeat center;
   background-size: contain;
 }
 
@@ -1304,19 +1304,19 @@ footer .inner .f_right {
   height: 30px;
 }
 .f_right .f_sns li a .facebook {
-  background: url(../images/sns1.png) no-repeat center;
+  background: url(../images/main/sns1.png) no-repeat center;
   background-size: contain;
 }
 .f_right .f_sns li a .kakao {
-  background: url(../images/sns2.png) no-repeat center;
+  background: url(../images/main/sns2.png) no-repeat center;
   background-size: contain;
 }
 .f_right .f_sns li a .youtube {
-  background: url(../images/sns3.png) no-repeat center;
+  background: url(../images/main/sns3.png) no-repeat center;
   background-size: contain;
 }
 .f_right .f_sns li a .insta {
-  background: url(../images/sns4.png) no-repeat center;
+  background: url(../images/main/sns4.png) no-repeat center;
   background-size: contain;
 }
 
