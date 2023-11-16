@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>하나카드 최종기획안</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/projectDoc.css" type="text/css" />
+    <!-- 폰트어썸 -->
+    <script
+      src="https://kit.fontawesome.com/5ed0f1f7e5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- s: wrap -->
+    <div id="wrap">
+      <section id="intro">
+        <div class="intro_inner">
+          <div class="intro_left">
+            <p class="jiyeon">Park Jiyeon &ensp;|&ensp; Portfolio</p>
+            <div class="title">
+              <div class="intro_logo">
+                <img
+                  src="images/projectDoc/logo.png"
+                  alt="로고"
+                  class="intro_logo_img"
+                />
+              </div>
+              <p>하나카드 리뉴얼 반응형 웹사이트</p>
+              <div class="line"></div>
+            </div>
+            <ul>
+              <li>
+                <span> 작업 기간 </span>
+                <span> 2023.02 </span>
+              </li>
+              <li>
+                <span> 기여도 </span>
+                <span> 개인작업 100%(리뉴얼 기획, 디자인, 퍼블리싱) </span>
+              </li>
+              <li>
+                <span> 작업 툴 </span>
+                <span>
+                  Photoshop, Illustrator, Adobe XD<br />
+                  Visual Studio Code: HTML, CSS, JS(jQuery)
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="intro_right">
+            <div class="mockup_img"></div>
+          </div>
+        </div>
+      </section>
+      <main>
+        <!-- s: body_wrap -->
+        <div class="body_wrap">
+          <!-- s: overview -->
+          <section class="contents_wrap" id="overview">
+            <h1>Overview</h1>
+            <p>
+              기존 하나카드 사이트의 디자인과 사용자 경험을 개선하여 리뉴얼
+              디자인 및 퍼블리싱을 작업한 프로젝트입니다.<br />
+              브랜드의 대표 서비스를 한눈에 확인하기 어렵고 복잡한 느낌을 주는
+              기존 사이트를 리뉴얼하여 <br />
+              브랜드가 드러나면서 사용자가 기능을 편하게 찾아볼 수 있도록 깔끔한
+              웹 사이트를 기획했습니다.
+            </p>
+          </section>
+          <!-- e: overview -->
+          <!-- s: project_goal -->
+          <section class="contents_wrap" id="project_goal">
+            <h1>Project Goal</h1>
+            <div class="contents">
+              <article class="goal" id="as-is">
+                <h2>As-is</h2>
+                <ul>
+                  <div class="original"></div>
+                  <li>
+                    많은 콘텐츠가 가운데에 밀집되어 있고, 레이아웃이 복잡해서 각
+                    항목에 집중하기 어렵다.<br />
+                    중복된 콘텐츠가 있으며, 한 화면에 여러 개의 롤링 배너와 동적
+                    효과가 보여서 산만하다.
+                  </li>
+                  <li>
+                    사용된 컬러의 수가 많아서 브랜드가 잘 드러나지 않고 복잡한
+                    느낌을 준다.
+                  </li>
+                  <li>
+                    추천 카드 항목의 크기가 작아서 눈에 잘 띄지 않고 ‘더 보기’
+                    아이콘이 직관적이지 않아 이용하기 어렵다.
+                  </li>
+                </ul>
+              </article>
+              <!-- e: as-is -->
+              <div class="arrow"><div class="arrow-right"></div></div>
+              <article class="goal" id="to-be">
+                <h2>To-be</h2>
+                <ul>
+                  <div class="renewal"></div>
+                  <li>
+                    중복된 콘텐츠들을 제거하고 레이아웃과 동적효과를 정돈하여
+                    깔끔한 느낌을 준다.
+                  </li>
+                  <li>
+                    하나카드의 브랜드 컬러를 위주로 적은 수의 컬러를 사용하여
+                    깔끔하면서 브랜드가 잘 나타나도록 한다.
+                  </li>
+                  <li>
+                    추천 카드 영역을 눈에 띄게 배치하고 카드의 정보를 확인하기
+                    쉽도록 디자인한다.
+                  </li>
+                </ul>
+              </article>
+              <!-- e: to-be -->
+            </div>
+          </section>
+          <!-- e: brand info -->
+          <!-- s: styleguide -->
+          <section class="contents_wrap" id="styleguide">
+            <h1>Style Guide</h1>
+            <div class="contents">
+              <article class="style" id="color">
+                <h2>Color</h2>
+                <div class="category" id="color_primary">
+                  <h3>Primary Color</h3>
+                  <div class="pallete">
+                    <div class="color_chip">
+                      <h4>Hana Green</h4>
+                      <ul>
+                        <li class="rgb">
+                          <b>RGB</b>
+                          <span>255</span>
+                          <span>36</span>
+                          <span>113</span>
+                        </li>
+                        <li class="hex">
+                          <b>HEX</b>
+                          <span>#FF2471</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="color_chip light">
+                      <h4>Light Green</h4>
+                      <ul>
+                        <li class="rgb">
+                          <b>RGB</b>
+                          <span>254</span>
+                          <span>209</span>
+                          <span>215</span>
+                        </li>
+                        <li class="hex">
+                          <b>HEX</b>
+                          <span>#FED1D7</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="color_chip light">
+                      <h4>Hana Red</h4>
+                      <ul>
+                        <li class="rgb">
+                          <b>RGB</b>
+                          <span>250</span>
+                          <span>248</span>
+                          <span>242</span>
+                        </li>
+                        <li class="hex">
+                          <b>HEX</b>
+                          <span>#FAF8F2</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="category" id="color_grayscale">
+                  <h3>Grayscale</h3>
+                  <div class="pallete">
+                    <div class="color_chip">
+                      <ul>
+                        <li class="hex">
+                          <b>HEX</b>
+                          <span>#111111</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="color_chip">
+                      <ul>
+                        <li class="hex">
+                          <b>HEX</b>
+                          <span>#7D7D7D</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="color_chip light">
+                      <ul>
+                        <li class="hex">
+                          <b>HEX</b>
+                          <span>#E4E4E4</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="color_chip light">
+                      <ul>
+                        <li class="hex">
+                          <b>HEX</b>
+                          <span>#F4F4F4</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="color_chip light">
+                      <ul>
+                        <li class="hex">
+                          <b>HEX</b>
+                          <span>#FFFFFF</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- e: color -->
+              <article class="style" id="typography">
+                <h2>Typography</h2>
+                <div class="category" id="fontfamily_Montserrat">
+                  <h3>Montserrat</h3>
+                  <div class="font">
+                    <div class="style medium">
+                      <div class="aa">Aa</div>
+                      <div class="txt">
+                        <p class="name">Montserrat Medium</p>
+                        <p class="abcd">
+                          가나다라마바사아자차카타파하<br />
+                          ABCDEFGHIJKLMNOPQRSTUVWXYZ<br />
+                          abcdefghijklmnopqrstuvwxyz<br />
+                          0123456789<br />
+                        </p>
+                      </div>
+                    </div>
+                    <div class="style regular">
+                      <div class="aa">Aa</div>
+                      <div class="txt">
+                        <p class="name">Montserrat Regular</p>
+                        <p class="abcd">
+                          가나다라마바사아자차카타파하<br />
+                          ABCDEFGHIJKLMNOPQRSTUVWXYZ<br />
+                          abcdefghijklmnopqrstuvwxyz<br />
+                          0123456789<br />
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="category" id="fontfamily_NanumGothic">
+                  <h3>Nanum Gothic</h3>
+                  <div class="font">
+                    <div class="style bold">
+                      <div class="aa">Aa</div>
+                      <div class="txt">
+                        <p class="name">Nanum Gothic Bold</p>
+                        <p class="abcd">
+                          가나다라마바사아자차카타파하<br />
+                          ABCDEFGHIJKLMNOPQRSTUVWXYZ<br />
+                          abcdefghijklmnopqrstuvwxyz<br />
+                          0123456789<br />
+                        </p>
+                      </div>
+                    </div>
+                    <div class="style regular">
+                      <div class="aa">Aa</div>
+                      <div class="txt">
+                        <p class="name">Nanum Gothic Regular</p>
+                        <p class="abcd">
+                          가나다라마바사아자차카타파하<br />
+                          ABCDEFGHIJKLMNOPQRSTUVWXYZ<br />
+                          abcdefghijklmnopqrstuvwxyz<br />
+                          0123456789<br />
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- typography -->
+            </div>
+          </section>
+          <!-- e: styleguide -->
+          <!-- s: gridsystem -->
+          <section class="contents_wrap" id="gridsystem">
+            <h1>Grid System</h1>
+            <div class="contents">
+              <ul class="info">
+                <li>
+                  <b>Type</b>
+                  <span>Responsive web</span>
+                </li>
+                <li>
+                  <b>Total Width</b>
+                  <span>1200px</span>
+                </li>
+                <li>
+                  <b>Columns</b>
+                  <span>10</span>
+                </li>
+                <li>
+                  <b>Gutter</b>
+                  <span>20px</span>
+                </li>
+                <li>
+                  <b>Padding left/right</b>
+                  <span>20px</span>
+                </li>
+              </ul>
+              <div class="img_container">
+                <div class="grid_img"></div>
+              </div>
+            </div>
+          </section>
+          <!-- e: gridsystem -->
+        </div>
+        <!-- e: body_wrap -->
+        <!-- s: layout -->
+        <section id="layout">
+          <div class="layout_inner">
+            <h1>Layout <span class="mainpage">Main Page</span></h1>
+            <div class="layout_content">
+              <div class="layout_info">
+                <div class="info mainbanner">
+                  <div class="info_txt">
+                    <h3>Main Banner</h3>
+                    <span>
+                      그라데이션 배경과 함께 진행 중인 이벤트와 관련된 이미지를
+                      이용하여 깔끔하게 디자인하였습니다. 하단의 버튼을 이용하여
+                      슬라이드를 정지하거나 재생할 수 있습니다. 대부분의
+                      서비스가 로그인을 필요로 하기 때문에 로그인 서비스를
+                      이용하기 쉽도록 메인배너 영역에 눈에 띄게 배치하였습니다.
+                    </span>
+                  </div>
+                  <div class="info_img">
+                    <img src="images/projectDoc/layout_pcmain1.png" alt="" />
+                  </div>
+                </div>
+                <!-- e: mainbanner -->
+                <div class="info subnav">
+                  <div class="info_txt">
+                    <h3>Sub navigation</h3>
+                    <span>
+                      사용자들이 자주 이용하는 메뉴들을 서브 네비게이션으로
+                      배치하여 사용성과 편의성을 높였습니다. 아이콘을 통해
+                      사용자가 메뉴를 쉽게 인식할 수 있도록 하였습니다
+                    </span>
+                  </div>
+                  <div class="info_img">
+                    <img src="images/projectDoc/layout_pcmain2.png" alt="" />
+                  </div>
+                </div>
+                <!-- e: bestmenu -->
+                <div class="info card">
+                  <div class="info_txt">
+                    <h3>Cards</h3>
+                    <span>
+                      하나카드의 카드를 소개하는 영역입니다. <br />
+                      탭메뉴를 클릭하여 각 항목별 카드를 볼 수 있습니다. 카드사
+                      홈페이지인 만큼 카드 제품이 잘 보이도록 페이지 상단에
+                      배치하고 이미지를 크게 적용했습니다. <br />
+                      또한, 카드에 대한 설명을 함께 나타내어 상세 페이지에
+                      들어가지 않고도 카드에 대한 정보를 대략적으로 파악할 수
+                      있도록 편의성을 더했습니다.
+                    </span>
+                  </div>
+                  <div class="info_img">
+                    <img src="images/projectDoc/layout_pcmain3.png" alt="" />
+                  </div>
+                </div>
+                <!-- e: order -->
+                <div class="info finance">
+                  <div class="info_txt">
+                    <h3>Finance</h3>
+                    <span>
+                      하나카드에서 제공하는 금융 서비스를 이용할 수 있는
+                      영역입니다. 탭메뉴를 통해 금융과 자동차금융으로 전환할 수
+                      있고, 오른쪽에 해당 금융 서비스에 대한 간단한 설명을
+                      적었습니다.
+                    </span>
+                  </div>
+                  <div class="info_img">
+                    <img src="images/projectDoc/layout_pcmain4.png" alt="" />
+                  </div>
+                </div>
+                <!-- e: store -->
+                <div class="info event">
+                  <div class="info_txt">
+                    <h3>Event&Point</h3>
+                    <span>
+                      왼쪽 영역은 진행 중인 이벤트가 자동으로 슬라이드 되는
+                      이벤트 배너입니다. 버튼을 이용하여 정지하거나 재생할 수
+                      있습니다. 오른쪽 영역에서는 하나카드의 포인트 제도인
+                      하나머니 서비스를 이용할 수 있습니다.
+                    </span>
+                  </div>
+                  <div class="info_img">
+                    <img src="images/projectDoc/layout_pcmain5.png" alt="" />
+                  </div>
+                </div>
+                <!-- e: event -->
+                <div class="info service">
+                  <div class="info_txt">
+                    <h3>Service</h3>
+                    <span>
+                      글로벌 서비스 연구소와 VIP 서비스에 대한 상세페이지로
+                      이동할 수 있는 버튼을 배치하였습니다.
+                    </span>
+                  </div>
+                  <div class="info_img">
+                    <img src="images/projectDoc/layout_pcmain6.png" alt="" />
+                  </div>
+                </div>
+                <!-- e: insta -->
+                <div class="info lifestyle">
+                  <div class="info_txt">
+                    <h3>Lifestyle</h3>
+                    <span>
+                      하나카드의 대표적인 서비스인 라이프스타일 영역입니다.
+                      라이프스타일 서비스 중 혜택 이용이 많은 4가지를 크게
+                      배치하고 아래에 그 외 서비스항목들을 작게 배치하였습니다.
+                    </span>
+                  </div>
+                  <div class="info_img">
+                    <img src="images/projectDoc/layout_pcmain7.png" alt="" />
+                  </div>
+                </div>
+                <!-- e: insta -->
+                <div class="info notice">
+                  <div class="info_txt">
+                    <h3>Notice</h3>
+                    <span>
+                      공지사항과 소비자주의경보 게시글들을 날짜와 함께 3개씩
+                      배치하였습니다. 모바일 크기에서는 공지사항과
+                      소비자주의경보가 탭 메뉴로 전환됩니다.
+                    </span>
+                  </div>
+                  <div class="info_img">
+                    <img src="images/projectDoc/layout_pcmain8.png" alt="" />
+                  </div>
+                </div>
+                <!-- e: insta -->
+                <div class="info footer">
+                  <div class="info_txt">
+                    <h3>Footer</h3>
+                    <span>
+                      고객센터, 사업자번호 등 브랜드에 대한 정보와 패밀리사이트,
+                      SNS으로 구성하였습니다.
+                    </span>
+                  </div>
+                  <div class="info_img">
+                    <img src="images/projectDoc/layout_pcmain9.png" alt="" />
+                  </div>
+                </div>
+                <!-- e: footer -->
+              </div>
+              <!-- e: layout_info -->
+              <div class="mobile_container">
+                <img
+                  src="images/projectDoc/main_mobile.png"
+                  alt="mobile 레이아웃"
+                />
+              </div>
+            </div>
+            <!-- e: layout content -->
+          </div>
+        </section>
+        <!-- e: layout -->
+      </main>
+      <section id="bottom">
+        <ul>
+          <li>
+            <div class="bottom_img">
+              <div class="m_img m_img1"></div>
+            </div>
+          </li>
+          <li>
+            <div class="bottom_img">
+              <div class="m_img m_img2"></div>
+            </div>
+          </li>
+          <li>
+            <div class="bottom_img">
+              <div class="m_img m_img3"></div>
+            </div>
+          </li>
+          <li>
+            <div class="bottom_img">
+              <div class="m_img m_img4"></div>
+            </div>
+          </li>
+          <li>
+            <div class="bottom_img">
+              <div class="m_img m_img5"></div>
+            </div>
+          </li>
+          <li>
+            <div class="bottom_img">
+              <div class="m_img m_img6"></div>
+            </div>
+          </li>
+          <li>
+            <div class="bottom_img">
+              <div class="m_img m_img7"></div>
+            </div>
+          </li>
+          <li>
+            <div class="bottom_img">
+              <div class="m_img m_img8"></div>
+            </div>
+          </li>
+        </ul>
+        <footer>
+          <div class="footer_img">
+            <div class="mockup_img"></div>
+          </div>
+          <div class="copyright">
+            COPYRIGHT Ⓒ 2023 PARKJIYEON. ALL RIGHTS RESERVED.
+          </div>
+        </footer>
+      </section>
+    </div>
+    <!-- e: wrap -->
+  </body>
+</html>
